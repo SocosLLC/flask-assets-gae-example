@@ -1,0 +1,16 @@
+application: flask-assets-gae
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+libraries:
+- name: jinja2
+  version: "2.6"
+
+handlers:
+- url: .*
+  script: application.app
+
+- url: /static
+  static_dir: src/static

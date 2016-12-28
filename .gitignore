@@ -1,0 +1,7 @@
+# Website assets
+src/application/static/*
+
+# Other stuff
+env/
+.idea
+*.pyc

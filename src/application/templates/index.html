@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flask Assets GAE Example</title>
+  {% assets "css" %}
+    <link href="{{ ASSET_URL }}" rel="stylesheet">
+  {% endassets %}
+</head>
+<body>
+
+  <p id="main-text" class="center">beautiful</p>
+
+  {% assets "js" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+  {% endassets %}
+</body>
+</html>
