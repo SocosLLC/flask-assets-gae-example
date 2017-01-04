@@ -1,6 +1,7 @@
 # flask-assets-gae
 
-Example code for using flask-assets in Google App Engine
+Example code for using [flask-assets](https://flask-assets.readthedocs.io/en/latest/)
+in [Google App Engine](https://cloud.google.com/appengine/docs)
 
 ## Setup
 
